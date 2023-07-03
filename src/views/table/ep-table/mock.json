@@ -1,0 +1,116 @@
+{
+	"table": [
+		{
+			"id": 1076186,
+			"cname": "邵敏",
+			"ename": "Betty Lee",
+			"type": 4,
+			"notOnly": false,
+			"email": "k.zurk@tdhfsugef.aw",
+			"desc": "宁夏回族自治区 中卫市 中宁县",
+			"config": {
+				"min": 2,
+				"max": 453
+			},
+			"set": "★★★",
+			"creater": 85,
+			"updateTime": "2002-05-16 21:02:19"
+		},
+		{
+			"id": 1076187,
+			"cname": "韩霞",
+			"ename": "David Clark",
+			"type": 7,
+			"notOnly": true,
+			"email": "w.lwtjqmlmeu@mgolymkw.dm",
+			"desc": "云南省 丽江市 玉龙纳西族自治县",
+			"config": {
+				"min": 4,
+				"max": 855
+			},
+			"set": "★★★",
+			"creater": 3,
+			"updateTime": "1981-02-06 22:34:41"
+		},
+		{
+			"id": 1076188,
+			"cname": "贾刚",
+			"ename": "Sarah Thompson",
+			"type": 6,
+			"notOnly": false,
+			"email": "q.zkwnnxxu@zotxndsy.sj",
+			"desc": "贵州省 安顺市 普定县",
+			"config": {
+				"min": 3,
+				"max": 874
+			},
+			"set": "★★★★★",
+			"creater": 88,
+			"updateTime": "1978-07-11 03:49:50"
+		},
+		{
+			"id": 1076189,
+			"cname": "冯娜",
+			"ename": "Mark Martin",
+			"type": 7,
+			"notOnly": false,
+			"email": "o.dwxbigyrv@ihwewwvsx.eh",
+			"desc": "甘肃省 定西市 陇西县",
+			"config": {
+				"min": 2,
+				"max": 893
+			},
+			"set": "★★★★★",
+			"creater": 74,
+			"updateTime": "1983-09-20 20:38:00"
+		},
+		{
+			"id": 1076190,
+			"cname": "朱敏",
+			"ename": "Cynthia Johnson",
+			"type": 2,
+			"notOnly": false,
+			"email": "l.cds@tbv.gw",
+			"desc": "香港特别行政区 九龙 深水埗区",
+			"config": {
+				"min": 2,
+				"max": 136
+			},
+			"set": "★★★★★",
+			"creater": 9,
+			"updateTime": "1975-01-09 20:33:11"
+		},
+		{
+			"id": 1076191,
+			"cname": "贺艳",
+			"ename": "Eric Young",
+			"type": 9,
+			"notOnly": false,
+			"email": "g.zwmygkbu@cjjd.jp",
+			"desc": "海外 海外 -",
+			"config": {
+				"min": 1,
+				"max": 591
+			},
+			"set": "★★★★",
+			"creater": 85,
+			"updateTime": "1997-11-11 19:21:09"
+		},
+		{
+			"id": 1076192,
+			"cname": "锺芳",
+			"ename": "Kenneth Clark",
+			"type": 7,
+			"notOnly": false,
+			"email": "r.nnwtc@xudhivco.ev",
+			"desc": "贵州省 贵阳市 花溪区",
+			"config": {
+				"min": 5,
+				"max": 691
+			},
+			"set": "★★",
+			"creater": 28,
+			"updateTime": "2003-06-13 01:20:37"
+		}
+	]
+}

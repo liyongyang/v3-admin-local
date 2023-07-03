@@ -1,0 +1,501 @@
+{
+  "view": {
+    "extent": [
+      105.85845004985651,
+      29.31694865251461,
+      107.5275917720482,
+      30.13694865251466
+    ],
+    "resolutions": [
+      6.091420174925517E-4,
+      3.0457100874627585E-4,
+      1.5228550437313792E-4,
+      7.614275218656896E-5,
+      3.807137609328448E-5,
+      1.903568804664224E-5,
+      9.51784402332112E-6,
+      4.75892201166056E-6
+    ],
+    "projection": {
+      "code": "EPSG:4326",
+      "extent": [
+        105.85845004985651,
+        29.31694865251461,
+        107.5275917720482,
+        30.13694865251466
+      ]
+    },
+    "center": [
+      106.516362,
+      29.659974
+    ],
+    "zoom": 2,
+    "minZoom": 0,
+    "maxZoom": 7
+  },
+  "mapView": [
+    {
+      "center": [
+        106.536362,
+        29.629974
+      ],
+      "riverName": "两江新区",
+      "zoom": 2.5
+    },
+    {
+      "center": [
+        106.512687,
+        29.624975
+      ],
+      "riverName": "盘溪河流域",
+      "zoom": 3
+    },
+    {
+      "center": [
+        106.512687,
+        29.624975
+      ],
+      "riverName": "跳墩河流域",
+      "zoom": 3
+    },
+    {
+      "center": [
+        106.512687,
+        29.624975
+      ],
+      "riverName": "肖家河流域",
+      "zoom": 3
+    }
+  ],
+  "tileGrid": {
+    "extent": [
+      105.85845004985651,
+      29.31694865251461,
+      107.5275917720482,
+      30.13694865251466
+    ],
+    "resolutions": [
+      6.091420174925517E-4,
+      3.0457100874627585E-4,
+      1.5228550437313792E-4,
+      7.614275218656896E-5,
+      3.807137609328448E-5,
+      1.903568804664224E-5,
+      9.51784402332112E-6,
+      4.75892201166056E-6
+    ],
+    "origin": [
+      -180,
+      90
+    ]
+  },
+  "layers": [
+    {
+      "name": "base",
+      "title": "矢量底图",
+      "group": "base",
+      "visible": true,
+      "source": [
+        {
+          "type": "xyz",
+          "theme": "blue",
+          "visible": true,
+          "url": "http://dt.cqmap.cn/GKTile/WMS.svc/GetTileX10_3?layer=liangjiang_meikeyuan_5&level={l}&row={r}&col={c}"
+        },
+        {
+          "type": "xyz",
+          "theme": "light",
+          "visible": false,
+          "url": "http://dt.cqmap.cn/GKTile/WMS.svc/GetTileX10_3?layer=liangjiang_meikeyuan_3&level={l}&row={r}&col={c}"
+        }
+      ]
+    },
+    {
+      "name": "4",
+      "title": "雨水管网",
+      "visible": true,
+      "type": "imagewms",
+      "source": [
+        {
+          "type": "imagearcgis",
+          "visible": true,
+          "riverBasinId": 0,
+          "url": "rest/services/LJXQ/DDYS/MapServer"
+        },
+        {
+          "type": "imagearcgis",
+          "visible": false,
+          "riverBasinId": 1,
+          "url": "rest/services/LJXQ/DDYS/MapServer"
+        }
+      ]
+    },
+    {
+      "name": "3",
+      "title": "污水管网",
+      "visible": true,
+      "type": "imagewms",
+      "source": [
+        {
+          "type": "imagearcgis",
+          "visible": true,
+          "riverBasinId": 0,
+          "url": "rest/services/LJXQ/DDWS/MapServer"
+        },
+        {
+          "type": "imagearcgis",
+          "visible": false,
+          "riverBasinId": 1,
+          "url": "rest/services/LJXQ/DDWS/MapServer"
+        }
+      ]
+    },
+    {
+      "name": "2",
+      "title": "湖库",
+      "visible": true,
+      "type": "imagewms",
+      "source": [
+        {
+          "type": "imagearcgis",
+          "visible": false,
+          "riverBasinId": 0,
+          "url": "rest/services/LJXQ/SHUIKU/MapServer"
+        },
+        {
+          "type": "imagearcgis",
+          "visible": true,
+          "riverBasinId": 1,
+          "url": "rest/services/LJXQ/SHUIKU/MapServer"
+        }
+      ]
+    },
+    {
+      "name": "12",
+      "title": "检查井",
+      "visible": true,
+      "type": "imagewms",
+      "source": [
+        {
+          "type": "imagearcgis",
+          "visible": false,
+          "riverBasinId": 0,
+          "url": "rest/services/LJXQ/JCJ/MapServer"
+        },
+        {
+          "type": "imagearcgis",
+          "visible": true,
+          "riverBasinId": 1,
+          "url": "rest/services/LJXQ/JCJ/MapServer"
+        }
+      ]
+    },
+    {
+      "name": "1",
+      "title": "河流",
+      "visible": true,
+      "type": "imagewms",
+      "source": [
+        {
+          "type": "imagearcgis",
+          "visible": false,
+          "riverBasinId": 0,
+          "url": "rest/services/LJXQ/SH/MapServer"
+        },
+        {
+          "type": "imagearcgis",
+          "visible": true,
+          "riverBasinId": 1,
+          "url": "rest/services/LJXQ/PXH_SX/MapServer"
+        },
+        {
+          "type": "imagearcgis",
+          "visible": true,
+          "riverBasinId": 1,
+          "url": "rest/services/LJXQ/PXH_SX_NEW/MapServer"
+        }
+      ]
+    },
+    {
+      "name": "6",
+      "title": "排口",
+      "type": "marker",
+      "visible": true,
+      "source": [
+        {
+          "type": "marker"
+        }
+      ]
+    },
+    {
+      "name": "7",
+      "title": "水厂",
+      "type": "marker",
+      "visible": true,
+      "source": [
+        {
+          "type": "marker"
+        }
+      ]
+    },
+    {
+      "name": "8",
+      "title": "排水户",
+      "type": "marker",
+      "visible": true,
+      "source": [
+        {
+          "type": "marker"
+        }
+      ]
+    },
+    {
+      "name": "9",
+      "title": "湿地",
+      "type": "marker",
+      "visible": true,
+      "source": [
+        {
+          "type": "marker"
+        }
+      ]
+    },
+    {
+      "name": "10",
+      "title": "调蓄池",
+      "type": "marker",
+      "visible": true,
+      "source": [
+        {
+          "type": "marker"
+        }
+      ]
+    },
+    {
+      "name": "11",
+      "title": "泵站",
+      "type": "marker",
+      "visible": true,
+      "source": [
+        {
+          "type": "marker"
+        }
+      ]
+    },
+    {
+      "name": "5",
+      "title": "分流井",
+      "type": "marker",
+      "visible": true,
+      "source": [
+        {
+          "type": "marker"
+        }
+      ]
+    },
+    {
+      "name": "jcd",
+      "title": "监测点",
+      "type": "marker",
+      "visible": true,
+      "source": [
+        {
+          "type": "marker"
+        }
+      ]
+    },
+    {
+      "name": "bljcd",
+      "title": "百林监测点",
+      "type": "marker",
+      "visible": true,
+      "source": [
+        {
+          "type": "marker"
+        }
+      ]
+    },
+    {
+      "name": "mep",
+      "title": "监测设备",
+      "type": "marker",
+      "visible": true,
+      "source": []
+    },
+    {
+      "name": "dm",
+      "title": "手工断面",
+      "type": "marker",
+      "visible": true,
+      "source": []
+    },
+    {
+      "name": "commonpoint",
+      "title": "任意点",
+      "type": "marker",
+      "visible": true,
+      "source": []
+    },
+    {
+      "name": "bs",
+      "title": "补水调度流量监测点",
+      "type": "marker",
+      "visible": true,
+      "source": [
+        {
+          "type": "marker"
+        }
+      ]
+    },
+    {
+      "name": "sz",
+      "title": "水质现状",
+      "type": "marker",
+      "visible": true,
+      "source": [
+        {
+          "type": "marker"
+        }
+      ]
+    },
+    {
+      "name": "quality",
+      "title": "水质情况",
+      "group": "water",
+      "visible": true,
+      "source": [
+        {
+          "type": "imagearcgis",
+          "visible": true,
+          "url": "rest/services/LJXQ/PXH/MapServer"
+        }
+      ]
+    },
+    {
+      "name": "fxck",
+      "title": "防汛物资仓库",
+      "type": "marker",
+      "visible": true,
+      "source": [
+        {
+          "type": "marker"
+        }
+      ]
+    },
+    {
+      "name": "fxzsd",
+      "title": "防汛值守点",
+      "type": "marker",
+      "visible": true,
+      "source": [
+        {
+          "type": "marker"
+        }
+      ]
+    },
+    {
+      "name": "fxry",
+      "title": "防汛人员",
+      "type": "marker",
+      "visible": true,
+      "source": [
+        {
+          "type": "marker"
+        }
+      ]
+    },
+    {
+      "name": "car",
+      "title": "车辆",
+      "type": "marker",
+      "visible": true,
+      "source": [
+        {
+          "type": "marker"
+        }
+      ]
+    },
+    {
+      "name": "fxplace",
+      "title": "应急避难场所",
+      "type": "marker",
+      "visible": true,
+      "source": [
+        {
+          "type": "marker"
+        }
+      ]
+    },
+    {
+      "name": "xh",
+      "title": "巡河进展",
+      "visible": true,
+      "s": 1,
+      "source": [
+        {
+          "type": "imagearcgis",
+          "visible": true,
+          "url": "arcgis/rest/services/LJXQ/LJXQJD/MapServer"
+        },
+        {
+          "type": "imagearcgis",
+          "visible": false,
+          "url": "arcgis/rest/services/LJXQ/LJXQJDQS/MapServer"
+        }
+      ]
+    },
+    {
+      "name": "xunhe",
+      "title": "巡河完成率",
+      "type": "marker",
+      "visible": true,
+      "source": [
+        {
+          "type": "marker"
+        }
+      ]
+    }
+  ],
+  "dialogLayers": [
+    {
+      "name": "base",
+      "title": "矢量底图",
+      "group": "base",
+      "visible": true,
+      "source": [
+        {
+          "type": "xyz",
+          "theme": "blue",
+          "visible": true,
+          "url": "http://dt.cqmap.cn/GKTile/WMS.svc/GetTileX10_3?layer=liangjiang_meikeyuan_5&level={l}&row={r}&col={c}"
+        },
+        {
+          "type": "xyz",
+          "theme": "light",
+          "visible": false,
+          "url": "http://dt.cqmap.cn/GKTile/WMS.svc/GetTileX10_3?layer=liangjiang_meikeyuan_3&level={l}&row={r}&col={c}"
+        }
+      ]
+    },
+    {
+      "name": "jcd",
+      "title": "监测点",
+      "type": "marker",
+      "visible": true,
+      "source": []
+    },
+    {
+      "name": "mep",
+      "title": "监测设备",
+      "type": "marker",
+      "visible": true,
+      "source": []
+    }
+  ],
+  "identify": {
+    "url": "http://14.21.40.66:6081/arcgis/rest/services/SZSW_TYFW/Query/MapServer/identify",
+    "params": {
+      "layers": "all:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23"
+    }
+  }
+}

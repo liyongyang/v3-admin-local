@@ -1,0 +1,119 @@
+/** 自定义 Element Plus 样式 */
+
+html.normal {
+  --el-bg-color: #1e293b;
+  --el-color-primary: #23a79d;
+  --el-color-warn: #facc15;
+  --el-menu-bg-color: #2b2d30;
+  --el-menu-text-color: var(--el-bg-color);
+  --el-menu-active-color: #23a79d;
+  --el-fill-color-blank: #fcfafa;
+  --el-text-color-regular: #646781;
+  --el-dialog-bg-color: linear-gradient(to right, #23a79ca7, #23a79ca7, #23a79ca8, #47e1b8ab);
+}
+
+.el-button--primary {
+  --el-button-hover-border-color: #169389;
+  --el-button-hover-bg-color: #169389;
+}
+
+.el-card {
+  border: none;
+}
+
+// 表格
+.el-table {
+
+  // 表头
+  th.el-table__cell {
+    background-color: var(--el-fill-color-light) !important;
+  }
+}
+
+.el-dialog,
+.el-message-box {
+  border-radius: 12px;
+  background-image: linear-gradient(to right, #2f62af84, #2f62af74, #2f89af84, #2fbcbe80);
+
+  .el-dialog__headerbtn {
+    width: 46px;
+    height: 46px;
+    top: 0;
+
+    .el-dialog__close {
+      color: var(--el-color-warn);
+      font-size: 20px;
+      align-items: center;
+    }
+  }
+
+  .el-dialog__header,
+  .el-message-box__header {
+    color: var(--el-color-primary);
+    display: flex;
+    padding: 0 12px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 12px 12px 0 0;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: solid 1px var(--el-color-primary);
+  }
+
+  .el-dialog__body {
+    padding: 12px 16px;
+
+    .el-form {
+      align-items: center;
+
+      .el-form-item {
+
+        .el-form-item__content {
+          width: 240px;
+        }
+      }
+    }
+  }
+
+
+  .el-dialog__footer {
+    margin: 0 30px;
+    padding-bottom: 28px;
+    border-top: 1px var(--el-color-primary) dashed;
+  }
+
+  .el-message-box__btns {
+    margin: 4px 30px;
+    border-top: 1px var(--el-color-primary) dashed;
+  }
+
+  .el-table {
+    color: var(--el-color-info-light-3);
+
+    thead>tr>th {
+      background-color: var(--el-color-info-light-3);
+    }
+
+    .el-table-cell {
+      padding: 6px 16px;
+    }
+  }
+}
+
+// 分页
+.el-pagination {
+
+  // 参考 Bootstrap 的响应式设计 WIDTH = 768
+  @media screen and (max-width: 768px) {
+
+    .el-pagination__total,
+    .el-pagination__sizes,
+    .el-pagination__jump,
+    .btn-prev,
+    .btn-next {
+      display: none !important;
+    }
+  }
+}

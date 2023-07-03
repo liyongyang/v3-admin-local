@@ -1,0 +1,725 @@
+{
+  "view": {
+    "extent": [0, 0, 4961, 3508],
+    "resolutions": [16, 8, 4, 2, 1, 0.5],
+    "center": [2800, 1800],
+    "zoom": 2,
+    "minZoom": 0,
+    "maxZoom": 5
+  },
+  "layers": [{ "url": "img/flat-map/layer.png", "extent": [0, 0, 4961, 3508] }],
+  "vectorLayers": [
+    {
+      "name": "hd",
+      "title": "河道",
+      "style": {
+        "autoZoom": true,
+        "text": {
+          "font": "16px sans-serif",
+          "textAlign": "right",
+          "color": "#000000",
+          "bgColor": "#ffc11d",
+          "padding": [5, 5, 5, 5]
+        }
+      },
+      "features": [
+        {
+          "geom": { "type": "point", "x": 225, "y": 2000 },
+          "name": "马田排洪渠",
+          "text": "河长:2.76(km)\r\n流域面积:2.36(km2)"
+        },
+        {
+          "geom": { "type": "point", "x": 600, "y": 1700 },
+          "name": "公明排洪渠",
+          "text": "河长:6.27(km)\r\n流域面积:15.32(km2)"
+        },
+        {
+          "geom": { "type": "point", "x": 1320, "y": 1900 },
+          "name": "上下村排洪渠",
+          "text": "河长:4.4(km)\r\n流域面积:5.49(km2)",
+          "style": {
+            "text": {
+              "textAlign": "left"
+            }
+          }
+        },
+        {
+          "geom": { "type": "point", "x": 1690, "y": 2450 },
+          "name": "白沙坑水",
+          "text": "河长:1.49(km)\r\n流域面积:3.34(km2)"
+        },
+        {
+          "geom": { "type": "point", "x": 2130, "y": 2500 },
+          "name": "西田水",
+          "text": "河长:2.27(km)\r\n流域面积:12.5(km2)"
+        },
+        {
+          "geom": { "type": "point", "x": 2670, "y": 2600 },
+          "name": "新陂头河北支",
+          "text": "河长:5.23(km)\r\n流域面积:12.91(km2)",
+          "style": {
+            "text": {
+              "textAlign": "left"
+            }
+          }
+        },
+        {
+          "geom": { "type": "point", "x": 2975, "y": 2400 },
+          "name": "新陂头河",
+          "text": "河长:14.65(km)\r\n流域面积:46.1(km2)"
+        },
+        {
+          "geom": { "type": "point", "x": 3710, "y": 2340 },
+          "name": "楼村水",
+          "text": "河长:8.6(km)\r\n流域面积:10.68(km2)"
+        },
+        {
+          "geom": { "type": "point", "x": 4050, "y": 1940 },
+          "name": "木墩河",
+          "text": "河长:6.37(km)\r\n流域面积:5.58(km2)"
+        },
+        {
+          "geom": { "type": "point", "x": 3080, "y": 1170 },
+          "name": "大凼水",
+          "text": "河长:1.97(km)\r\n流域面积:4.62(km2)"
+        },
+        {
+          "geom": { "type": "point", "x": 2850, "y": 870 },
+          "name": "玉田河",
+          "text": "河长:2.7(km)\r\n流域面积:6.28(km2)"
+        },
+        {
+          "geom": { "type": "point", "x": 4030, "y": 1030 },
+          "name": "鹅颈水",
+          "text": "河长:9.54(km)\r\n流域面积:22.32(km2)"
+        },
+        {
+          "geom": { "type": "point", "x": 4550, "y": 480 },
+          "name": "白花河",
+          "text": "河长:5.49(km)\r\n流域面积:11.13(km2)"
+        }
+      ]
+    },
+    {
+      "name": "sk",
+      "title": "水库",
+      "style": {
+        "autoZoom": true,
+        "image": {
+          "src": "img/flat-map/sk.png"
+        },
+        "text": {
+          "font": "16px sans-serif",
+          "color": "white",
+          "offsetY": 20
+        }
+      },
+      "features": [
+        {
+          "geom": { "type": "point", "x": 230, "y": 1408 },
+          "name": "横坑水库",
+          "text": "14.68m³\r\n横坑水库"
+        },
+        {
+          "geom": { "type": "point", "x": 310, "y": 1058 },
+          "name": "尖岗坑水库",
+          "text": "28.97m³\r\n尖岗坑水库"
+        },
+        {
+          "geom": { "type": "point", "x": 625, "y": 1158 },
+          "name": "后底坑水库",
+          "text": "54.02m³\r\n后底坑水库"
+        },
+        {
+          "geom": { "type": "point", "x": 1905, "y": 2908 },
+          "name": "桂坑水库",
+          "text": "103.92m³\r\n桂坑水库"
+        },
+        {
+          "geom": { "type": "point", "x": 2150, "y": 2908 },
+          "name": "铁坑水库",
+          "text": "382.39m³\r\n铁坑水库"
+        },
+        {
+          "geom": { "type": "point", "x": 2340, "y": 3000 },
+          "name": "莲塘水库",
+          "text": "234.36m³\r\n莲塘水库"
+        },
+        {
+          "geom": { "type": "point", "x": 2550, "y": 2958 },
+          "name": "罗仔坑水库",
+          "text": "9.46m³\r\n罗仔坑水库"
+        },
+        {
+          "geom": { "type": "point", "x": 2450, "y": 2758 },
+          "name": "白鸽陂水库",
+          "text": "102.82m³\r\n白鸽陂水库"
+        },
+        {
+          "geom": { "type": "point", "x": 2500, "y": 2558 },
+          "name": "望天湖水库",
+          "text": "14.39m³\r\n望天湖水库"
+        },
+        {
+          "geom": { "type": "point", "x": 2810, "y": 3008 },
+          "name": "石狗公水库",
+          "text": "258.11m³\r\n石狗公水库"
+        },
+        {
+          "geom": { "type": "point", "x": 3000, "y": 3008 },
+          "name": "公明水库",
+          "text": "公明水库"
+        },
+        {
+          "geom": { "type": "point", "x": 4380, "y": 2000 },
+          "name": "碧眼水库",
+          "text": "84.61m³\r\n碧眼水库"
+        },
+        {
+          "geom": { "type": "point", "x": 2550, "y": 1208 },
+          "name": "大凼水库",
+          "text": "大凼水库"
+        },
+        {
+          "geom": { "type": "point", "x": 4300, "y": 1100 },
+          "name": "鹅颈水库",
+          "text": "鹅颈水库"
+        },
+        {
+          "geom": { "type": "point", "x": 4300, "y": 900 },
+          "name": "红坳水库",
+          "text": "72.68m³\r\n红坳水库"
+        },
+        {
+          "geom": { "type": "point", "x": 4180, "y": 700 },
+          "name": "畔坑水库",
+          "text": "22.18m³\r\n畔坑水库"
+        },
+        {
+          "geom": { "type": "point", "x": 2210, "y": 750 },
+          "name": "阿婆髻水库",
+          "text": "60.84m³\r\n阿婆髻水库"
+        },
+        {
+          "geom": { "type": "point", "x": 3210, "y": 200 },
+          "name": "石岩水库",
+          "text": "石岩水库"
+        }
+      ]
+    },
+    {
+      "name": "bs",
+      "title": "补水点",
+      "style": {
+        "autoZoom": true,
+        "image": {
+          "src": "img/flat-map/bsd.png"
+        },
+        "text": {
+          "font": "16px sans-serif",
+          "textAlign": "center",
+          "color": "#000000",
+          "bgColor": "#ffc11d",
+          "padding": [5, 5, 5, 5],
+          "offsetY": -40
+        }
+      },
+      "features": [
+        {
+          "geom": { "type": "point", "x": 310, "y": 1760 },
+          "name": "补水点",
+          "text": "补水量：1万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 487, "y": 1525 },
+          "name": "补水点",
+          "text": "补水量：1.26万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 660, "y": 1400 },
+          "name": "补水点",
+          "text": "补水量：7万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 880, "y": 1550 },
+          "name": "补水点",
+          "text": "补水量：0.7万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 1040, "y": 1650 },
+          "name": "补水点",
+          "text": "补水量：0.7万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 1319, "y": 1560 },
+          "name": "补水点",
+          "text": "补水量：3万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 1764, "y": 2645 },
+          "name": "补水点",
+          "text": "补水量：1.4万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 2125, "y": 2720 },
+          "name": "补水点",
+          "text": "补水量：0.2万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 2680, "y": 2680 },
+          "name": "补水点",
+          "text": "补水量：3万m³/天",
+          "style": {
+            "text": {
+              "textAlign": "left"
+            }
+          }
+        },
+        {
+          "geom": { "type": "point", "x": 3047, "y": 2873 },
+          "name": "补水点",
+          "text": "补水量：3.5万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 3965, "y": 2455 },
+          "name": "补水点",
+          "text": "补水量：0.35万m³/天",
+          "style": {
+            "text": {
+              "textAlign": "right"
+            }
+          }
+        },
+        {
+          "geom": { "type": "point", "x": 4100, "y": 2223 },
+          "name": "补水点",
+          "text": "补水量：2万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 3700, "y": 2033 },
+          "name": "补水点",
+          "text": "补水量：4万m³/天",
+          "style": {
+            "text": {
+              "textAlign": "left"
+            }
+          }
+        },
+        {
+          "geom": { "type": "point", "x": 4100, "y": 2033 },
+          "name": "补水点",
+          "text": "补水量：1万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 3850, "y": 1730 },
+          "name": "补水点",
+          "text": "补水量：2万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 2715, "y": 1145 },
+          "name": "补水点",
+          "text": "补水量：1.5万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 2975, "y": 875 },
+          "name": "补水点",
+          "text": "补水量：1.5万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 3005, "y": 600 },
+          "name": "补水点",
+          "text": "补水量：0.45万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 3340, "y": 600 },
+          "name": "补水点",
+          "text": "补水量：3万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 4075, "y": 1020 },
+          "name": "补水点",
+          "text": "补水量：4万m³/天",
+          "style": {
+            "text": {
+              "textAlign": "left"
+            }
+          }
+        },
+        {
+          "geom": { "type": "point", "x": 3658, "y": 782 },
+          "name": "补水点",
+          "text": "补水量：0.27万m³/天"
+        }
+      ]
+    },
+    {
+      "name": "txc",
+      "title": "调蓄池",
+      "style": {
+        "autoZoom": true,
+        "image": {
+          "src": "img/flat-map/txc.png"
+        },
+        "text": {
+          "font": "16px sans-serif",
+          "textAlign": "center",
+          "color": "#000000",
+          "bgColor": "#ffc11d",
+          "padding": [5, 5, 5, 5],
+          "offsetY": -40
+        },
+        "showName": true,
+        "nameText": {
+          "font": "16px sans-serif",
+          "textAlign": "center",
+          "color": "#fff",
+          "padding": [5, 5, 5, 5],
+          "offsetY": 40
+        }
+      },
+      "features": [
+        {
+          "geom": { "type": "point", "x": 180, "y": 2140 },
+          "name": "马田调蓄池",
+          "text": "调蓄规模：1.6万m³"
+        },
+        {
+          "geom": { "type": "point", "x": 710, "y": 1930 },
+          "name": "上下村调蓄池",
+          "text": "调蓄规模：26万m³"
+        },
+        {
+          "geom": { "type": "point", "x": 1640, "y": 2690 },
+          "name": "白沙坑调蓄池",
+          "text": "调蓄规模：2万m³"
+        },
+        {
+          "geom": { "type": "point", "x": 3070, "y": 2500 },
+          "name": "调蓄池",
+          "text": "调蓄规模：0.8万m³"
+        },
+        {
+          "geom": { "type": "point", "x": 2650, "y": 2430 },
+          "name": "新陂头北支调蓄池",
+          "text": "调蓄规模：1.7万m³"
+        },
+        {
+          "geom": { "type": "point", "x": 3800, "y": 1590 },
+          "name": "东坑水调蓄池",
+          "text": "调蓄规模：13.5万m³"
+        },
+        {
+          "geom": { "type": "point", "x": 3185, "y": 1300 },
+          "name": "大凼水调蓄池",
+          "text": "调蓄规模：0.8万m³"
+        },
+        {
+          "geom": { "type": "point", "x": 2850, "y": 720 },
+          "name": "玉田河调蓄池",
+          "text": "调蓄规模：1万m³"
+        },
+        {
+          "geom": { "type": "point", "x": 4450, "y": 650 },
+          "name": "白花河调蓄池",
+          "text": "调蓄规模：2万m³"
+        }
+      ]
+    },
+    {
+      "name": "plbz",
+      "title": "排涝泵站",
+      "style": {
+        "autoZoom": true,
+        "image": {
+          "src": "img/flat-map/plbz.png"
+        },
+        "text": {
+          "font": "16px sans-serif",
+          "textAlign": "center",
+          "color": "#000000",
+          "bgColor": "#ffc11d",
+          "padding": [5, 5, 5, 5],
+          "offsetY": -40
+        },
+        "showName": true,
+        "nameText": {
+          "font": "16px sans-serif",
+          "textAlign": "center",
+          "color": "#fff",
+          "padding": [5, 5, 5, 5],
+          "offsetY": 40
+        }
+      },
+      "features": [
+        {
+          "geom": { "type": "point", "x": 340, "y": 2105 },
+          "name": "马田排涝泵站",
+          "text": "抽排量：32.62m³/s",
+          "code": "C0220100001400002"
+        },
+        {
+          "geom": { "type": "point", "x": 540, "y": 2030 },
+          "name": "马山头排涝泵站",
+          "text": "抽排量：12.41m³/s",
+          "code": "C0220100001400003"
+        },
+        {
+          "geom": { "type": "point", "x": 1230, "y": 2135 },
+          "name": "上下村排涝泵站",
+          "text": "抽排量：30.71m³/s",
+          "code": "C0220100001400001"
+        }
+      ]
+    },
+    {
+      "name": "bsbz",
+      "title": "补水泵站",
+      "style": {
+        "autoZoom": true,
+        "image": {
+          "src": "img/flat-map/bsbz.png"
+        },
+        "text": {
+          "font": "16px sans-serif",
+          "textAlign": "center",
+          "color": "#000000",
+          "bgColor": "#ffc11d",
+          "padding": [5, 5, 5, 5],
+          "offsetY": -40
+        }
+      },
+      "features": [
+        {
+          "geom": { "type": "point", "x": 1080, "y": 2090 },
+          "name": "补水泵站",
+          "text": "补水规模：8万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 3620, "y": 2060 },
+          "name": "补水泵站",
+          "text": "补水规模：25万m³/天",
+          "style": {
+            "text": {
+              "textAlign": "left"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "wsc",
+      "title": "污水厂",
+      "style": {
+        "autoZoom": true,
+        "image": {
+          "src": "img/flat-map/wsc.png"
+        },
+        "text": {
+          "font": "16px sans-serif",
+          "textAlign": "center",
+          "color": "#000000",
+          "bgColor": "#ffc11d",
+          "padding": [5, 5, 5, 5],
+          "offsetY": -40
+        },
+        "showName": true,
+        "nameText": {
+          "font": "16px sans-serif",
+          "textAlign": "center",
+          "color": "#fff",
+          "padding": [5, 5, 5, 5],
+          "offsetY": 40
+        }
+      },
+      "features": [
+        {
+          "geom": { "type": "point", "x": 750, "y": 2120 },
+          "name": "合水口污水站",
+          "text": "处理规模：3万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 900, "y": 2070 },
+          "name": "上下村污水站",
+          "text": "处理规模：8万m³/天"
+        },
+        {
+          "geom": { "type": "point", "x": 3550, "y": 2060 },
+          "name": "污水站",
+          "text": "处理规模：30万m³/天",
+          "style": {
+            "text": {
+              "textAlign": "right"
+            }
+          }
+        },
+        {
+          "geom": { "type": "point", "x": 4650, "y": 650 },
+          "name": "白花河污水站",
+          "text": "处理规模：1.5万m³/天"
+        }
+      ]
+    },
+    {
+      "name": "sd",
+      "title": "湿地",
+      "style": {
+        "autoZoom": true,
+        "image": {
+          "src": "img/flat-map/sd.png"
+        },
+        "showName": true,
+        "nameText": {
+          "font": "16px sans-serif",
+          "textAlign": "center",
+          "color": "#fff",
+          "padding": [5, 5, 5, 5],
+          "offsetY": 40
+        }
+      },
+      "features": [
+        {
+          "geom": { "type": "point", "x": 3070, "y": 2800 },
+          "name": "新陂头河湿地"
+        },
+        {
+          "geom": { "type": "point", "x": 3550, "y": 1770 },
+          "name": "东坑水湿地"
+        },
+        {
+          "geom": { "type": "point", "x": 3550, "y": 1170 },
+          "name": "鹅颈水湿地"
+        }
+      ]
+    },
+    {
+      "name": "dnc",
+      "title": "底泥厂",
+      "style": {
+        "autoZoom": true,
+        "image": {
+          "src": "img/flat-map/dnc.png"
+        },
+        "text": {
+          "font": "16px sans-serif",
+          "textAlign": "center",
+          "color": "#000000",
+          "bgColor": "#ffc11d",
+          "padding": [5, 5, 5, 5],
+          "offsetY": -40
+        },
+        "showName": true,
+        "nameText": {
+          "font": "16px sans-serif",
+          "textAlign": "center",
+          "color": "#fff",
+          "padding": [5, 5, 5, 5],
+          "offsetY": 40
+        }
+      },
+      "features": [
+        {
+          "geom": { "type": "point", "x": 3575, "y": 1500 },
+          "name": "光明底泥厂",
+          "text": "处理规模：1425m³/天"
+        }
+      ]
+    },
+    {
+      "name": "khdm",
+      "title": "考核断面",
+      "style": {
+        "autoZoom": true,
+        "image": {
+          "src": "img/flat-map/khdm.png"
+        },
+        "showName": true,
+        "nameText": {
+          "font": "16px sans-serif",
+          "textAlign": "center",
+          "color": "#fff",
+          "padding": [5, 5, 5, 5],
+          "offsetY": 40
+        }
+      },
+      "features": [
+        {
+          "geom": { "type": "point", "x": 2450, "y": 2250 },
+          "name": "李孙萌断面"
+        },
+        {
+          "geom": { "type": "point", "x": 3400, "y": 2250 },
+          "name": "楼村水断面"
+        }
+      ]
+    }
+  ],
+  "pixiLayer": {
+    "features": [
+      {
+        "id": "1",
+        "type": "water",
+        "geom": {
+          "x": 160,
+          "y": 2300,
+          "width": 3200,
+          "height": 100
+        },
+        "vx": -1,
+        "vy": 0
+      },
+      {
+        "id": "2",
+        "type": "water",
+        "geom": {
+          "x": 3360,
+          "y": 2300,
+          "width": 100,
+          "height": 2000
+        },
+        "vx": 0,
+        "vy": -1
+      }
+    ]
+  },
+  "features": [
+    {
+      "id": 1,
+      "geom": {
+        "type": "point",
+        "x": 500,
+        "y": 1925
+      },
+      "style": {
+        "type": "text",
+        "text": "茅洲河"
+      }
+    },
+    {
+      "id": 100,
+      "geom": {
+        "type": "polygon",
+        "coordinates": [
+          [
+            [266, 1971],
+            [266, 1886],
+            [14125, 1886],
+            [14125, 1971],
+            [266, 1971]
+          ]
+        ]
+      },
+      "style": {
+        "type": "water-wave"
+      }
+    }
+  ],
+  "overlays": [
+    {
+      "id": 1,
+      "x": 5167,
+      "y": 2723,
+      "type": "sk",
+      "text": "鹅颈水库"
+    }
+  ]
+}
